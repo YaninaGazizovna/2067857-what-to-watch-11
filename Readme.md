@@ -1,7 +1,7 @@
 # Личный проект «Что посмотреть»
 
 * Студент: [Yanina Mavlyutova](https://up.htmlacademy.ru/react/11/user/2067857).
-* Наставник: `Неизвестно`.
+* Наставник: `Dmitriy Zheleztsov`.
 
 ---
 
