@@ -6,6 +6,7 @@ type WelcomeScreenProps = {
   filmName:string;
   filmGenre:string;
 }
+const FILMS_CARDS_COUNT = 20;
 
 function WelcomeScreen({filmsCount,filmRelease,filmName,filmGenre}: WelcomeScreenProps): JSX.Element {
   return (
@@ -106,26 +107,8 @@ function WelcomeScreen({filmsCount,filmRelease,filmName,filmGenre}: WelcomeScree
           </ul>
 
           <div className="catalog__films-list">
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
-          <FilmCard></FilmCard>
+
+          {[...Array(FILMS_CARDS_COUNT)].map((element: number) => <FilmCard/>)}
           </div>
 
           <div className="catalog__more">
