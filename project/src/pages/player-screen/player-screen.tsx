@@ -1,7 +1,7 @@
 function PlayerScreen(): JSX.Element {
 
   return (
-<div className="player">
+    <div className="player">
       <video src="#" className="player__video" poster="img/player-poster.jpg"></video>
 
       <button type="button" className="player__exit">Exit</button>
@@ -33,7 +33,7 @@ function PlayerScreen(): JSX.Element {
         </div>
       </div>
     </div>
-    )
-  }
+  );
+}
 
-  export default PlayerScreen;
+export default PlayerScreen;

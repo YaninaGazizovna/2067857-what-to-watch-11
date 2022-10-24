@@ -127,7 +127,7 @@ function ListScreen(): JSX.Element {
         </div>
       </footer>
     </div>
-  )
+  );
 }
 
 export default ListScreen;

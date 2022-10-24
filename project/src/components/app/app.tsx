@@ -10,7 +10,8 @@ type AppScreenProps = {
 function App({filmsCount,filmRelease,filmName,filmGenre}: AppScreenProps): JSX.Element {
   return (
     <WelcomeScreen filmsCount={filmsCount} filmRelease={filmRelease} filmName={filmName}
-    filmGenre={filmGenre}/>
+      filmGenre={filmGenre}
+    />
   );
 }
 

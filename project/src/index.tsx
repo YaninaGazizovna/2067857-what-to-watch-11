@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-   <App
+    <App
       filmsCount = {Setting.FilmsCount}
       filmRelease = {Setting.FilmRelease}
       filmName = {Setting.FilmName}
