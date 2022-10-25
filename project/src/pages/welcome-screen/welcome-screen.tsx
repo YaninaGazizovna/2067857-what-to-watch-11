@@ -119,7 +119,7 @@ function WelcomeScreen({filmsCount,filmRelease,filmName,filmGenre}: WelcomeScree
 
           <div className="catalog__films-list">
 
-            {[...Array(FILMS_CARDS_COUNT)].map((element: number) => <FilmCard/>)}
+            {Array(FILMS_CARDS_COUNT).map((element: number) => <FilmCard key={element}/>)}
           </div>
 
           <div className="catalog__more">
