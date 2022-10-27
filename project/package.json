@@ -25,10 +25,6 @@
     "plugins": [
       "@typescript-eslint"
     ],
-    "eslint.workingDirectories": [
-      "./",
-      "./project"
-  ],
     "extends": [
       "react-app",
       "react-app/jest",
